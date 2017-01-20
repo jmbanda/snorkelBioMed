@@ -40,7 +40,6 @@ def getCorpusPubAnnotation(fileWI):
 			textTO = string.replace(textTO, '\r\n', '\\n')
 			textTO = string.replace(textTO, '\n', '\\n')
 			outFileText.write(PMID + "\t"  + textTO + "\n")
-			##
 			denoSpans = {} #this is a hacky version of getting the spans in a key,value pair for quick search
 			for k in annotation["denotations"]:
 				strID=k["id"]  #

@@ -2,13 +2,10 @@
 **_v0.4.0_**
 
 [![Documentation](https://readthedocs.org/projects/snorkel/badge/?version=master)](http://snorkel.readthedocs.io/en/latest/)
-[![Build Status](https://travis-ci.org/HazyResearch/snorkel.svg?branch=master)](https://travis-ci.org/HazyResearch/snorkel)
 
-## Acknowledgements
-<img src="figs/darpa.JPG" width="80" height="80" />
-<img src="figs/ONR.jpg" width="100" height="80" />
+## Important Note
 
-*Sponsored in part by DARPA as part of the [SIMPLEX](http://www.darpa.mil/program/simplifying-complexity-in-scientific-discovery) program under contract number N66001-15-C-4043.*
+This is a snapshot of Snorkel on 1/17/2019 only for evaluation and some development of use cases on biomedical literature purposes. For the latest version please go to the main [github](https://github.com/HazyResearch/snorkel), note that a newer version of Snorkel might break our biomedical tutorial and does not yet include the PubAnnotation utilities needed for communication with the service. All original documentation/code remains the same and it is attributed to the original authors. This repo only adds PubAnnotation functionality and the BioMedical literature Jupyter notebook.
 
 ## Getting Started
 
@@ -74,9 +71,16 @@ The tutorial is available in the following directory:
 ```
 tutorials/intro
 ```
+The [biomedical tutorial](https://github.com/jmbanda/snorkelBioMed/blob/master/tutorials/DisGeNET/Snorkel_PubAnnotation.ipynb) it is an adaptation of other tutorials but with the focus on PMID documents as a corpus and using PubAnnotation to derive gold labels for them (using DisGeNET). This is a work in progress, so please report any bugs or issues. 
+
+The tutorial is available in the following directory:
+```
+tutorials/DisGeNET
+```
 
 ## Issues
-We like [issues](https://github.com/HazyResearch/snorkel/issues) as a place to put bugs, questions, feature requests, etc- don't be shy!
+
+For issues with the biomedical aspect of this repo, please report them here. For general purpose Snorkel issues please [use](https://github.com/HazyResearch/snorkel/issues) as a place to put bugs, questions, feature requests, etc- don't be shy!
 If submitting an issue about a bug, however, **please provide a pointer to a notebook (and relevant data) to reproduce it.**
 
 *Note: if you have an issue with the matplotlib install related to the module `freetype`, see [this post](http://stackoverflow.com/questions/20533426/ubuntu-running-pip-install-gives-error-the-following-required-packages-can-no); if you have an issue installing ipython, try [upgrading setuptools](http://stackoverflow.com/questions/35943606/error-on-installing-ipython-for-python-3-sys-platform-darwin-and-platform)*
