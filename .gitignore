@@ -24,3 +24,9 @@ tutorials/intro/LR_0-0.meta
 tutorials/intro/LR_0.info
 
 tutorials/intro/SpouseLR-0.data-00000-of-00001
+
+tutorials/DisGeNET/data/test_get_text.txt
+
+tutorials/DisGeNET/data/test_get_denotations.txt
+
+tutorials/DisGeNET/data/test_get_relations.txt
